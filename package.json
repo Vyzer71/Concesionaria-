@@ -1,0 +1,12 @@
+{
+  "name": "concesionaria-messi-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix urrode-frontend && npm install --prefix urrode-backend",
+    "dev:frontend": "npm run dev --prefix urrode-frontend",
+    "dev:backend": "npm run start --prefix urrode-backend",
+    "dev": "npm run dev --prefix urrode-frontend",
+    "build:frontend": "npm run build --prefix urrode-frontend"
+  }
+}
